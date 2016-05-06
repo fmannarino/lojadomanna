@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (2.3.0):
+    - AFNetworking/NSURLConnection (= 2.3.0)
+    - AFNetworking/NSURLSession (= 2.3.0)
+    - AFNetworking/Reachability (= 2.3.0)
+    - AFNetworking/Security (= 2.3.0)
+    - AFNetworking/Serialization (= 2.3.0)
+    - AFNetworking/UIKit (= 2.3.0)
+  - AFNetworking/NSURLConnection (2.3.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.0)
+  - AFNetworking/Security (2.3.0)
+  - AFNetworking/Serialization (2.3.0)
+  - AFNetworking/UIKit (2.3.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - HexColors (2.2.0)
+  - JSONKit-NoWarning (1.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.3.0)
+  - HexColors (= 2.2.0)
+  - JSONKit-NoWarning (= 1.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 29871543aa6e8ece4f9557efad6613c57257c93f
+  HexColors: 84b52fbd913d617b85816f8a0e20130c581ca067
+  JSONKit-NoWarning: 4fe7f6e862927f671a67414c5dcf1df8eef413f8
+
+COCOAPODS: 0.39.0
