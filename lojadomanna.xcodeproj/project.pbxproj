@@ -17,7 +17,7 @@
 		6B08B13E1CDA389B006B6F24 /* lojadomannaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B08B13D1CDA389B006B6F24 /* lojadomannaUITests.m */; };
 		6B08B14E1CDA4DC8006B6F24 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B08B14D1CDA4DC8006B6F24 /* SWRevealViewController.m */; };
 		6B08B1511CDA9D99006B6F24 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B08B1501CDA9D99006B6F24 /* NavigationViewController.m */; };
-		6B08B1551CDAAA8B006B6F24 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B08B1541CDAAA8B006B6F24 /* menu.json */; };
+		6B08B1551CDAAA8B006B6F24 /* produto.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B08B1541CDAAA8B006B6F24 /* produto.json */; };
 		6B08B15F1CDBE603006B6F24 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B08B15E1CDBE603006B6F24 /* LoginViewController.m */; };
 		6B08B1611CDD1F2F006B6F24 /* Login.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B08B1601CDD1F2F006B6F24 /* Login.plist */; };
 		DAEB2143FBCB0FB491A19656 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5662975E27B96DE84160731 /* libPods.a */; };
@@ -62,7 +62,7 @@
 		6B08B14D1CDA4DC8006B6F24 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		6B08B14F1CDA9D99006B6F24 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		6B08B1501CDA9D99006B6F24 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
-		6B08B1541CDAAA8B006B6F24 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		6B08B1541CDAAA8B006B6F24 /* produto.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = produto.json; sourceTree = "<group>"; };
 		6B08B15D1CDBE603006B6F24 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		6B08B15E1CDBE603006B6F24 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6B08B1601CDD1F2F006B6F24 /* Login.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Login.plist; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		6B08B1521CDAAA15006B6F24 /* Statics */ = {
 			isa = PBXGroup;
 			children = (
-				6B08B1541CDAAA8B006B6F24 /* menu.json */,
+				6B08B1541CDAAA8B006B6F24 /* produto.json */,
 			);
 			name = Statics;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 			files = (
 				6B08B1281CDA389B006B6F24 /* LaunchScreen.storyboard in Resources */,
 				6B08B1251CDA389B006B6F24 /* Assets.xcassets in Resources */,
-				6B08B1551CDAAA8B006B6F24 /* menu.json in Resources */,
+				6B08B1551CDAAA8B006B6F24 /* produto.json in Resources */,
 				6B08B1611CDD1F2F006B6F24 /* Login.plist in Resources */,
 				6B08B1231CDA389B006B6F24 /* Main.storyboard in Resources */,
 			);
