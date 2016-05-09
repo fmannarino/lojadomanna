@@ -1,0 +1,7 @@
+{
+    "produto" : {
+            "nome": "Relógio Fossil",
+            "preco": "R$850",
+            "descricao": "Relógio de metal com cronômetro",
+    }
+}

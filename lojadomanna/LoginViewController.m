@@ -33,7 +33,14 @@
     NSString *senha = _senhaTextField.text;
     NSLog(@"usuario: %@", usuario);
     NSLog(@"senha: %@", senha);
-    if([usuario isEqualToString:@"usuarioteste"] && [senha isEqualToString:@"teste1234"]){
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *documentsPath = [documentsDirectory stringByAppendingPathComponent:@"Login.plist"];
+    NSMutableDictionary* updateVal = [[NSMutableDictionary alloc] initWithContentsOfFile:documentsPath];
+    NSLog(@"Dictionary = %@", updateVal);
+    NSString *usuarioPlist = [updateVal objectForKey:@"usuario"];
+    NSString *senhaPlist = [updateVal objectForKey:@"senha"];
+    if([usuario isEqualToString:usuarioPlist] && [senha isEqualToString:senhaPlist]){
         NSLog(@"logado");
         [self addUserLoggedInPlist:YES];
         [self dismissViewControllerAnimated:YES completion:nil];
@@ -57,10 +64,6 @@
     NSLog(@"array = %@", array1);
     if ([array1 isEqualToString:@"true"]) {
         NSLog(@"logado");
-        
-    }else{
-        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"LOGIN" message:@"Usuário ou senha invalido" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
     }
 }
 
