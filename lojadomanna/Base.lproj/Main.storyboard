@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Reveal View Controller-->
@@ -40,37 +41,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6Y-fI-MFK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6Y-fI-MFK">
                                 <rect key="frame" x="133" y="52" width="54" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Usuário" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDi-Vd-ECG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuário" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDi-Vd-ECG">
                                 <rect key="frame" x="130" y="124" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-le-j4k">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-le-j4k">
                                 <rect key="frame" x="70" y="162" width="180" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pjQ-DS-Q3G">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pjQ-DS-Q3G">
                                 <rect key="frame" x="70" y="246" width="180" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Senha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78b-p0-5Cx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78b-p0-5Cx">
                                 <rect key="frame" x="130" y="211" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgK-OW-2Ot">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgK-OW-2Ot">
                                 <rect key="frame" x="0.0" y="518" width="320" height="50"/>
                                 <color key="backgroundColor" red="0.2328361742424242" green="0.2328361742424242" blue="0.2328361742424242" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1Zr-Ad-Oza"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="VOLTAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -79,9 +83,12 @@
                                     <action selector="backButton:" destination="Mnm-qu-dsm" eventType="touchUpInside" id="6O8-7v-QVG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bi8-oG-BIK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bi8-oG-BIK">
                                 <rect key="frame" x="60" y="312" width="200" height="60"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="H3g-cS-J2o"/>
+                                </constraints>
                                 <state key="normal" title="ENTRAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -91,6 +98,29 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pjQ-DS-Q3G" secondAttribute="trailing" constant="70" id="97t-Qo-c5b"/>
+                            <constraint firstItem="J6Y-fI-MFK" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leading" constant="133" id="9OX-mt-DfH"/>
+                            <constraint firstAttribute="trailing" secondItem="78b-p0-5Cx" secondAttribute="trailing" constant="129" id="FdO-Si-sQk"/>
+                            <constraint firstAttribute="trailing" secondItem="J6Y-fI-MFK" secondAttribute="trailing" constant="133" id="Gkt-6k-Cxu"/>
+                            <constraint firstItem="fXE-le-j4k" firstAttribute="top" secondItem="bDi-Vd-ECG" secondAttribute="bottom" constant="17" id="Hcg-FR-7Sk"/>
+                            <constraint firstItem="pjQ-DS-Q3G" firstAttribute="top" secondItem="78b-p0-5Cx" secondAttribute="bottom" constant="14" id="IiM-xH-YyC"/>
+                            <constraint firstItem="bi8-oG-BIK" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leadingMargin" constant="44" id="J2q-9D-wdO"/>
+                            <constraint firstAttribute="trailing" secondItem="bDi-Vd-ECG" secondAttribute="trailing" constant="129" id="K5K-LH-S8w"/>
+                            <constraint firstItem="bDi-Vd-ECG" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leading" constant="130" id="OPA-fB-VWV"/>
+                            <constraint firstItem="fXE-le-j4k" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leading" constant="70" id="UBL-iq-8ip"/>
+                            <constraint firstItem="DgK-OW-2Ot" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leading" id="UdV-ry-nog"/>
+                            <constraint firstItem="J6Y-fI-MFK" firstAttribute="top" secondItem="l4e-EL-3RF" secondAttribute="bottom" constant="32" id="VI4-xa-u6O"/>
+                            <constraint firstItem="bDi-Vd-ECG" firstAttribute="top" secondItem="J6Y-fI-MFK" secondAttribute="bottom" constant="51" id="YUd-mA-1DY"/>
+                            <constraint firstItem="pjQ-DS-Q3G" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leading" constant="70" id="g5l-mC-ntb"/>
+                            <constraint firstAttribute="trailing" secondItem="fXE-le-j4k" secondAttribute="trailing" constant="70" id="gbZ-dv-1IZ"/>
+                            <constraint firstItem="78b-p0-5Cx" firstAttribute="top" secondItem="fXE-le-j4k" secondAttribute="bottom" constant="19" id="ljg-R9-hTt"/>
+                            <constraint firstItem="DgK-OW-2Ot" firstAttribute="bottom" secondItem="64w-ZW-Jfz" secondAttribute="top" id="nDf-o2-4ok"/>
+                            <constraint firstItem="bi8-oG-BIK" firstAttribute="centerX" secondItem="DgK-OW-2Ot" secondAttribute="centerX" id="o8S-y3-BhY"/>
+                            <constraint firstItem="bi8-oG-BIK" firstAttribute="centerX" secondItem="pjQ-DS-Q3G" secondAttribute="centerX" id="rNC-Pe-ZkI"/>
+                            <constraint firstItem="bi8-oG-BIK" firstAttribute="top" secondItem="pjQ-DS-Q3G" secondAttribute="bottom" constant="36" id="rOc-gP-sCM"/>
+                            <constraint firstItem="78b-p0-5Cx" firstAttribute="leading" secondItem="xW5-Jm-UQL" secondAttribute="leading" constant="130" id="vXT-rB-yob"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -248,6 +278,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zc7-jV-s0i"/>
+        <segue reference="vkn-ru-VGf"/>
     </inferredMetricsTieBreakers>
 </document>
