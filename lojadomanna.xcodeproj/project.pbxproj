@@ -20,6 +20,7 @@
 		6B08B1551CDAAA8B006B6F24 /* produto.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B08B1541CDAAA8B006B6F24 /* produto.json */; };
 		6B08B15F1CDBE603006B6F24 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B08B15E1CDBE603006B6F24 /* LoginViewController.m */; };
 		6B08B1611CDD1F2F006B6F24 /* Login.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B08B1601CDD1F2F006B6F24 /* Login.plist */; };
+		6BD4D58A1CE106E000B2400C /* NavigationViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4D5891CE106E000B2400C /* NavigationViewControllerTests.m */; };
 		DAEB2143FBCB0FB491A19656 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5662975E27B96DE84160731 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		6B08B15D1CDBE603006B6F24 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		6B08B15E1CDBE603006B6F24 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6B08B1601CDD1F2F006B6F24 /* Login.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Login.plist; sourceTree = "<group>"; };
+		6BD4D5891CE106E000B2400C /* NavigationViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewControllerTests.m; sourceTree = "<group>"; };
 		F5662975E27B96DE84160731 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79AEEE3B2A6BEE56BC356BE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,12 +148,12 @@
 				6B08B1211CDA389B006B6F24 /* Main.storyboard */,
 				6B08B14F1CDA9D99006B6F24 /* NavigationViewController.h */,
 				6B08B1501CDA9D99006B6F24 /* NavigationViewController.m */,
+				6B08B15E1CDBE603006B6F24 /* LoginViewController.m */,
+				6B08B15D1CDBE603006B6F24 /* LoginViewController.h */,
 				6B08B1241CDA389B006B6F24 /* Assets.xcassets */,
 				6B08B1261CDA389B006B6F24 /* LaunchScreen.storyboard */,
 				6B08B1291CDA389B006B6F24 /* Info.plist */,
 				6B08B1181CDA389B006B6F24 /* Supporting Files */,
-				6B08B15D1CDBE603006B6F24 /* LoginViewController.h */,
-				6B08B15E1CDBE603006B6F24 /* LoginViewController.m */,
 			);
 			path = lojadomanna;
 			sourceTree = "<group>";
@@ -171,6 +173,7 @@
 			children = (
 				6B08B1321CDA389B006B6F24 /* lojadomannaTests.m */,
 				6B08B1341CDA389B006B6F24 /* Info.plist */,
+				6BD4D5891CE106E000B2400C /* NavigationViewControllerTests.m */,
 			);
 			path = lojadomannaTests;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD4D58A1CE106E000B2400C /* NavigationViewControllerTests.m in Sources */,
 				6B08B1331CDA389B006B6F24 /* lojadomannaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

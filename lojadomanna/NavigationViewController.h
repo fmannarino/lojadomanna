@@ -23,5 +23,6 @@ IBOutlet UIButton *loginLogout;
 @property (nonatomic, copy) NSString *name;
 
 - (void)updateConfig;
+- (BOOL )checkUser;
 
 @end

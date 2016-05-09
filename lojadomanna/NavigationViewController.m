@@ -27,7 +27,6 @@ NSString * const EXTENSION_OF_FILENAME_WITH_PLACES = @"json";
     [super viewDidLoad];
     menu = @[@"first", @"second"];
     [self updateConfig];
-    //[self changeMenuCell];
 
 }
 

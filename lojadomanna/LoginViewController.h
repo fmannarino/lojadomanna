@@ -23,5 +23,6 @@
 @property (retain, strong) id<LoginDelegate>delegateMenu;
 
 - (void)addUserLoggedInPlist:(BOOL )logado;
+- (void)checkUser;
 
 @end
